@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .ben {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .ben img {
+      width: calc(33.33% - 20px);
+      height: auto;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(118, 63, 63, 0.753);
+    }
+
+    @media (max-width: 900px) {
+      .ben img {
+        width: calc(50% - 20px); /* 2 per row on tablets */
+      }
+    }
+
+    @media (max-width: 600px) {
+      .ben img {
+        width: 100%; /* 1 per row on mobile */
+      }
+    }
+    img:hover{
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Image Gallery</h2>
+
+  <div class="ben">
+    <img src="3d-render-tree-against-sunset-sky.jpg" alt="image 1"  style="height: 50vh; width: 400px;">
+    <img src="beautiful-shot-tree-savanna-plains-with-blue-sky.jpg" alt="img 2"  style="height: 50vh; width: 400px;">
+    <img src="beautiful-shot-tree-savanna-plains-with-blue-sky.jpg" alt="img 2"  style="height: 50vh; width: 400px;">
+    <img src="group-elephants-big-green-tree-wilderness.jpg" alt="img4" style="height: 50vh; width: 400px;">
+    <img src="morskie-oko-tatry.jpg" alt="img5"  style="height: 50vh; width: 400px;">
+    <img src="old-rusty-fishing-boat-slope-along-shore-lake.jpg" alt="img6" style="height: 50vh; width: 400px;">
+    <img src="vertical-shot-some-beautiful-trees-sun-setting-background.jpg" alt="img7" style="height: 50vh; width: 400px;">
+    <img src="view-rock-formations-with-nature-landscape.jpg" alt="img8"  style="height: 50vh; width: 400px;">
+    <img src="water-fall (1).jpg" alt="img9"  style="height: 50vh; width: 400px;">
+    <img src="water-fall.jpg" alt="img10"  style="height: 50vh; width: 400px;">
+    <img src="waterfall-nature-thailand.jpg" alt="img11"  style="height: 50vh; width: 400px;">
+    <img src="asian-woman-wearing-thai-dress-costume-traditional-according-thai-culture-pha-dok-siew-waterfall-chiang-mai-thailand.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="beautiful-shot-deserted-area-with-boulder-rock-isolated-sabal-palmetto-tree.jpg" alt="" style="height: 50vh; width: 400px;">
+    <img src="beautiful-shot-tree-savanna-plains-with-blue-sky.jpg" alt="" style="height: 50vh; width: 400px;">
+    <img src="beautiful-view-greenery-bridge-forest-perfect-background.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="lone-tree.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="mesmerizing-view-silhouette-tree-savanna-plains-sunset.jpg" alt=""   style="height: 50vh; width: 400px;">
+    <img src="nice-landscape-with-boat.jpg" alt=""   style="height: 50vh; width: 400px;">
+    <img src="sunset-with-silhoutte-birds-flying.jpg" alt="" style="height: 50vh; width: 400px;">
+    <img src="vertical-orange-lily-field-cloudy-dark-sky.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="vertical-shot-green-tree-with-overlooking-view-river-mountains-clear-sky.jpg" alt=""   style="height: 50vh; width: 400px;">
+    <img src="vertical-shot-road-going-through-beautiful-colorful-trees-captured-day-time.jpg" style="height: 50vh; width: 400px;">
+    <img src="vertical-shot-some-beautiful-trees-sun-setting-background.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="img 2.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="img 3.jpg" alt="" style="height: 50vh; width: 400px;">
+    <img src="img 4.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="img 5.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="img 6.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="img 7.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="img 8.jpg" alt=""   style="height: 50vh; width: 400px;">
+    <img src="img 9.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="img 10.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="img 11.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="jpg 1.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="jpg 2.jpg" alt=""   style="height: 50vh; width: 400px;">
+    <img src="jpg 3.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="jpg 4.jpg" alt=""   style="height: 50vh; width: 400px;">
+    <img src="jpg 5.jpg" alt=""   style="height: 50vh; width: 400px;">
+    <img src="jpg 6.jpg" alt=""   style="height: 50vh; width: 400px;">
+    <img src="jpg 7.jpg" alt=""   style="height: 50vh; width: 400px;">
+    <img src="jpg 8.jpg" alt="" style="height: 50vh; width: 400px;">
+    <img src="jpg 9.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="jpg 10.jpg" alt=""   style="height: 50vh; width: 400px;">
+    <img src="jpg 11.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="jpg 12.jpg" alt=""   style="height: 50vh; width: 400px;">
+    <img src="drek.jpg" alt=""  style="height: 50vh; width: 400px;">
+    <img src="mac10.jpg" alt="" style="height: 50vh; width: 400px;">
+    <img src="mp7.jpg" alt="" style="height: 50vh; width: 400px;">
+    <img src="one.jpg" alt="" style="height: 50vh; width: 400px;">
+    <img src="two.jpg" alt="" style="height: 50vh; width: 400px;">
+    <img src="three.png" alt="" style="height: 50vh; width: 400px;">
+    <img src="four.jpg" alt="" style="height: 50vh; width: 400px;">
+    <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+    </video>
+  </div>
+</body>
+</html>
